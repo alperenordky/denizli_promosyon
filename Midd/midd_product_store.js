@@ -8,7 +8,7 @@ export class MiddProductStore {
         // 1. Aşama: İç İçe Sonsuz Yakınlaşma (Recursive Zoom Tunnel) Görselleri
         // Sıra: Dıştan içe (Landscape -> Woman -> Matcha -> Eye)
         this.zoomLayers = [
-            { id: 'zoom_0', image: 'resim/değistirilecek_gorsel.jpeg', alt: 'Landscape' },
+            { id: 'zoom_0', image: 'resim/degistirilecek_gorsel.jpeg', alt: 'Landscape' },
             { id: 'zoom_1', image: 'resim/main_1.webp', alt: 'Woman' },
             { id: 'zoom_2', image: 'resim/main_2.webp', alt: 'Matcha' },
             { id: 'zoom_3', image: 'resim/main_3.webp', alt: 'Eye' }
@@ -24,15 +24,15 @@ export class MiddProductStore {
         // Flip 2: Kadın (Ön) -> Yeni Görsel (Üstten iner)
         this.cubeFlip2 = {
             front: 'resim/main_1.webp',
-            top: 'resim/değistirilecek_gorsel.jpeg'
+            top: 'resim/degistirilecek_gorsel.jpeg'
         };
 
         // 2. Aşama: Genişleyen Ana Tema (Hero Theme)
         this.heroProduct = {
             id: 'hero',
-            image: 'resim/değistirilecek_gorsel.jpeg',
-            fallbackImage: 'resim/değistirilecek_gorsel.jpeg',
-            video: 'video/main_videos/değistirlecek_video.mp4',
+            image: 'resim/degistirilecek_gorsel.jpeg',
+            fallbackImage: 'resim/degistirilecek_gorsel.jpeg',
+            video: 'video/main_videos/degistirilecek_video.mp4',
             brandLeft: 'Oscar Pico',
             brandSub: 'Oscar Pico — Portfolio©24',
             sideLeft: 'OSCAR PICO',
@@ -263,7 +263,7 @@ export class MiddProductStore {
 
     getAllImageUrls() {
         return [
-            'resim/değistirilecek_gorsel.jpeg',
+            'resim/degistirilecek_gorsel.jpeg',
             'resim/main_1.webp',
             'resim/main_2.webp',
             'resim/main_3.webp',

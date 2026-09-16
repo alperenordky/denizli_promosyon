@@ -127,10 +127,10 @@ export class AppUI {
                 <div class="hero-container" id="heroContainer">
                     <div class="hero-card" id="heroCard">
                         <div class="hero-image-wrap">
-                            <video id="heroBgVideo" class="hero-bg-video" muted playsinline preload="auto" poster="resim/değistirilecek_gorsel.jpeg">
-                                <source src="video/main_videos/değistirlecek_video.mp4" type="video/mp4">
+                            <video id="heroBgVideo" class="hero-bg-video" muted playsinline preload="auto" poster="resim/degistirilecek_gorsel.jpeg">
+                                <source src="video/main_videos/degistirilecek_video.mp4" type="video/mp4">
                             </video>
-                            <img src="resim/değistirilecek_gorsel.jpeg" alt="Hero Background" class="hero-bg-img" id="heroBgImg">
+                            <img src="resim/degistirilecek_gorsel.jpeg" alt="Hero Background" class="hero-bg-img" id="heroBgImg">
                             <div class="hero-overlay"></div>
                         </div>
 
@@ -162,7 +162,7 @@ export class AppUI {
                 <div class="showcase-video-item" id="showcaseItem2">
                     <div class="showcase-video-wrap">
                         <video id="showcaseVideo2" class="showcase-bg-video" muted playsinline preload="metadata">
-                            <source src="video/main_videos/senden_video_istiyorum_yavaş_y.mp4" type="video/mp4">
+                            <source src="video/main_videos/senden_video_istiyorum_yavas_y.mp4" type="video/mp4">
                         </video>
                         <div class="showcase-video-overlay"></div>
                     </div>
